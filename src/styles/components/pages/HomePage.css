@@ -1,0 +1,15 @@
+.principal {
+    width: 85%;
+    padding-right: 1.25rem;
+    box-sizing: border-box;
+
+}
+
+.principal p {
+    font-size: 0.875rem;
+    text-align: left;
+}
+
+.principal h2 {
+    text-align: left;
+}

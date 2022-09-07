@@ -1,0 +1,36 @@
+.servicio {
+    border: 1px solid #ccc;
+    border-radius: 0.625rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.servicio .info h4 {
+    color: #06225e;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 0.0625rem solid #2e64a1;
+    padding-bottom: 0.625rem;
+}
+
+.servicio .info p {
+    font-size: 0.8125rem;
+    text-align: left;
+}
+
+.servicio img {
+    border-radius: 0.8125rem;
+    display: block;
+    max-width: 11.25rem;
+}
+
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.servicio h4 {
+    text-align: left;
+}
